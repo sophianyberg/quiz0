@@ -25,3 +25,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run the program
         run: ./hello
+      - name : Check with check50
+        run : check50 cs50/problems/2020/fall/hello
