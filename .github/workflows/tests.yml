@@ -25,6 +25,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run the program
         run: ./hello
+      - name : Install Python 3.8
+        run : sudo apt install python3.8
       - name : Install check50
         run: pip install check50
       - name : Check with check50
